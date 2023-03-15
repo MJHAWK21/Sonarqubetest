@@ -1,15 +1,15 @@
-package USTBATCHNO3.SONARQUBETEST;
+package ust.sonar;
 
 public class Employeelist {
 	private String empname;
 	private int empage;
-	private int no_of_years;
+	private int noofyears;
 	private double salary;
-	public Employeelist(String empname, int empage, int no_of_years, double salary) {
+	public Employeelist(String empname, int empage, int noofyears, double salary) {
 		super();
 		this.empname = empname;
 		this.empage = empage;
-		this.no_of_years = no_of_years;
+		this.noofyears = noofyears;
 		this.salary = salary;
 	}
 	public String getEmpname() {
@@ -24,11 +24,11 @@ public class Employeelist {
 	public void setEmpage(int empage) {
 		this.empage = empage;
 	}
-	public int getNo_of_years() {
-		return no_of_years;
+	public int getNoofyears() {
+		return noofyears;
 	}
-	public void setNo_of_years(int no_of_years) {
-		this.no_of_years = no_of_years;
+	public void setNoofyears(int noofyears) {
+		this.noofyears = noofyears;
 	}
 	public double getSalary() {
 		return salary;
@@ -38,7 +38,7 @@ public class Employeelist {
 	}
 	@Override
 	public String toString() {
-		return "Employeelist [empname=" + empname + ", empage=" + empage + ", no_of_years=" + no_of_years + ", salary="
+		return "Employeelist [empname=" + empname + ", empage=" + empage + ", noofyears=" + noofyears + ", salary="
 				+ salary + "]";
 	}
 
